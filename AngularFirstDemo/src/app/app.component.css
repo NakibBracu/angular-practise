@@ -1,0 +1,10 @@
+h1{
+    font-size: 70px;
+    color: red;
+}
+h2{
+    background-color: aqua;
+    color: black;
+    font-size: 50px;
+    text-decoration: underline;
+}
