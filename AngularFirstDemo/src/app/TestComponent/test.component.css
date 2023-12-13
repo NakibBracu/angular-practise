@@ -1,0 +1,13 @@
+p{
+    color: #0a52f0;
+    font-style: italic;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+h1{
+color: chartreuse;
+font-size: xx-large;
+}
+p:hover{
+    color: blueviolet;
+}
