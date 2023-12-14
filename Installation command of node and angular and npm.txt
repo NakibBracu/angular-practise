@@ -1,0 +1,23 @@
+#want to update node.js or install new version of node.js?
+Download from here: https://nodejs.org/en/download 
+If we download and install new version of node.js, then it will automatically update node version
+#node version check command
+node -v
+
+#npm installation 
+npm install -g npm@latest
+#npm update command
+npm update -g
+#npm version check
+npm -v
+
+#typescript Installation
+npm install -g typescript
+#typescript version check
+tsc --version
+
+
+#angular installation
+npm install -g @angular/cli
+#angular version check
+ng --version
