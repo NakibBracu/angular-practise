@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PublicRoutingModule } from './public-routing.module';
-import { HeaderComponent } from '../../Components/header/header.component';
+
 
 
 
@@ -12,7 +12,6 @@ import { HeaderComponent } from '../../Components/header/header.component';
   imports: [
     CommonModule,
     PublicRoutingModule,
-    HeaderComponent
   ]
 })
 export class PublicModule { }
