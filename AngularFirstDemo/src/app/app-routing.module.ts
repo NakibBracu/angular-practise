@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PublicComponent } from './areas/public/public.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { NotFoundComponent } from './Components/not-found/not-found.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'footer',
     component:FooterComponent 
+  },
+  {
+    path:'**',
+    component:NotFoundComponent
   }
 ];
 
