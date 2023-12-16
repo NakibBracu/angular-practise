@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { HomeComponent } from './Components/home/home.component';
 import { UsersComponent } from './Components/users/users.component';
 import { CategoriesComponent } from './Components/categories/categories.component';
@@ -10,7 +10,7 @@ import { CategoriesComponent } from './Components/categories/categories.componen
   standalone: true,
   imports: [CommonModule, 
     RouterOutlet,HomeComponent,
-    UsersComponent,CategoriesComponent
+    UsersComponent,CategoriesComponent,RouterLink
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
