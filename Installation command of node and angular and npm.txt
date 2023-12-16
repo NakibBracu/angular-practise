@@ -20,4 +20,4 @@ tsc --version
 #angular installation
 npm install -g @angular/cli
 #angular version check
-ng --version
+ng --version or ng v
