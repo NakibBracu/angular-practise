@@ -14,13 +14,14 @@ import { FooterComponent } from './Components/footer/footer.component';
     AppComponent,
     HomeComponent,
     TestComponent,
-    FooterComponent,
+
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-   HeaderComponent
+   HeaderComponent,
+   FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
