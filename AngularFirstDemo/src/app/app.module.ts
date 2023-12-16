@@ -5,10 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './HomeComponent/home.component';
 import { TestComponent } from './TestComponent/test.component';
-import { HeaderComponent } from './Components/header/header.component';
-import { FooterComponent } from './Components/footer/footer.component';
 import { PublicComponent } from './areas/public/public.component';
 import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './Components/header/header.component';
 
 
 @NgModule({
@@ -23,9 +22,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-   HeaderComponent,
-   FooterComponent,
-   RouterModule
+   RouterModule,
+   HeaderComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
