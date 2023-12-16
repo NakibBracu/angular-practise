@@ -8,6 +8,7 @@ import { TestComponent } from './TestComponent/test.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { PublicComponent } from './areas/public/public.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PublicComponent } from './areas/public/public.component';
     BrowserModule,
     AppRoutingModule,
    HeaderComponent,
-   FooterComponent
+   FooterComponent,
+   RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
