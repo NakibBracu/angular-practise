@@ -18,5 +18,8 @@ export class AppComponent {
   CalculateTotal(event: Event){
     this.totalPrice = this.amount*this.quantity
   }
+  CalculateTotal2(a:number,b:number){
+    this.totalPrice = a * b;
+  }
 
 }
