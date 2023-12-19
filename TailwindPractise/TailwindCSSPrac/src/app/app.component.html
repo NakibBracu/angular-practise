@@ -3,3 +3,13 @@
 </h1>
 <button class="bg-indigo-500 p-3 m-3 text-lime-50 px-7 rounded">Sample</button><hr>
 <button class="bg-slate-950 p-3 m-3 text-lime-500">b2</button>
+<hr>
+<!-- Now we can see a very good event Binding example -->
+<h1 class="text-ellipsis font-extrabold bg-blend-color content-center">Price Calculator</h1>
+<input type="text" class="bg-slate-700 text-slate-100 mb-3" placeholder="enter quantity" [(ngModel)]="quantity"><br>
+<input type="text" class="bg-slate-700 text-slate-100 mb-3" placeholder="enter unit price" [(ngModel)]="amount"><br>
+<button
+  type="button"
+  class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-black  bg-orange-600" (click)="CalculateTotal($event)" >
+Submit</button>
+<p>Calulated Price = {{totalPrice}} $</p>
