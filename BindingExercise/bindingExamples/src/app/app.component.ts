@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms';
 export class AppComponent {
   title = 'bindingExamples';
   username = ''
-
+  ResetUserName(event: Event){
+   this.username='';
+  }
 
 }
