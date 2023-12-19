@@ -1,5 +1,5 @@
 <div class="container">
   <input type="text" class="form-control" placeholder="Please Enter UserName Here" [(ngModel)]="username">
   <p>UserName: {{username}}</p>
-  <input type="button" class="btn btn-warning" value="Reset">
+  <input type="button" class="btn btn-warning" value="Reset" [disabled]="(username === '')">
 </div>
